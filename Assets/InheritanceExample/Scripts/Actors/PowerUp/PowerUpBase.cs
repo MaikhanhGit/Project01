@@ -8,10 +8,10 @@ public abstract class PowerUpBase : MonoBehaviour
     [SerializeField] private GameObject _visualToDisable = null;
 
     protected abstract void PowerUp(float duration);
-    protected abstract void PowerDown();
-    private IEnumerator _coroutine;
-        
+    protected abstract void PowerDown();   
 
+    private IEnumerator _coroutine;
+       
     private void OnTriggerEnter(Collider other)
     {
         Projectile projectile = other.GetComponent<Projectile>();

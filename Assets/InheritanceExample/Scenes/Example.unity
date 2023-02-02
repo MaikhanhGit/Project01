@@ -123,12 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &102039867 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
-    type: 3}
-  m_PrefabInstance: {fileID: 6796352425186527788}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &102039868 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6796352425085012752, guid: b7c042b38e6302d4a991548d75d660a8,
@@ -156,7 +150,7 @@ PrefabInstance:
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}
@@ -588,7 +582,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 102039867}
   - {fileID: 266887480}
   - {fileID: 1985953065}
   m_Father: {fileID: 1431181167}
@@ -1072,7 +1065,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 988893389}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1985953067
 MeshRenderer:
@@ -1227,7 +1220,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 988893389}
+    m_TransformParent: {fileID: 266887480}
     m_Modifications:
     - target: {fileID: 6796352425085012758, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}
@@ -1237,12 +1230,12 @@ PrefabInstance:
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.291
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}
@@ -1252,7 +1245,7 @@ PrefabInstance:
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13
+      value: 26.7
       objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8,
         type: 3}

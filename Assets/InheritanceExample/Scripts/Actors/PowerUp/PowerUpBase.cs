@@ -6,6 +6,7 @@ public abstract class PowerUpBase : MonoBehaviour
 {
     [SerializeField] protected float PowerUpDuration = 2;
     [SerializeField] private GameObject _visualToDisable = null;
+    [SerializeField] private AudioClip _collectSFX = null;
 
     protected abstract void PowerUp(float duration);
     protected abstract void PowerDown();   
@@ -20,6 +21,7 @@ public abstract class PowerUpBase : MonoBehaviour
         {
             gameObject.GetComponent<Collider>().enabled = false;
             _visualToDisable.SetActive(false);
+            AudioHelper.PlayClip2D(_collectSFX, 1, 01f);
 
             OnHit();
         }

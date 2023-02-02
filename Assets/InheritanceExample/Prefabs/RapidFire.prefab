@@ -144,3 +144,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUpDuration: 2
   _visualToDisable: {fileID: 746962272435278895}
+  _collectSFX: {fileID: 8300000, guid: 3d32deddedccf6f4a9ae8f349234cd53, type: 3}
+  _rotationSpeed: 0.5

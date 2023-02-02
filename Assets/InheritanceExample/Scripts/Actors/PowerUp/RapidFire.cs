@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RapidFire : PowerUpBase
 {
-    [SerializeField] private float _rotationSpeed = .5f;
+    [SerializeField] private float _rotationSpeed = .5f;    
 
     private float _coolDownDuration = 0;
     
@@ -24,7 +24,7 @@ public class RapidFire : PowerUpBase
     {
         if(_turretController != null)
         {
-            _turretController.FireCooldown *= 2;
+            _turretController.FireCooldown *= 2;            
         }
     }
 
@@ -32,7 +32,7 @@ public class RapidFire : PowerUpBase
     {
         if(_turretController != null)
         {
-            _turretController.FireCooldown /= 2;
+            _turretController.FireCooldown /= 2;                     
         }
     }
 }
